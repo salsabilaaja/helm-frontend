@@ -1,0 +1,12 @@
+.headerContainer {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  
+  & > p > span {
+    color: #FF9200;
+  }
+}

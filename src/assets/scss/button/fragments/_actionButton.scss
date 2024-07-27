@@ -1,0 +1,65 @@
+.btnActionContainer {
+  background-color: white;
+  min-width: 280px;
+  min-height: 130px;
+  outline: none;
+  transition: 0.1s;
+  border: 2px solid $grey;
+
+  & > p {
+  font-size: 20px;
+  }
+}
+
+.btnActionFilled {
+  background-color: $yellow-light;
+  border: 0;
+  min-width: 150px !important;
+  min-height: 60px !important;
+
+  &:hover {
+    background-color: $yellow-dark;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .btnActionContainer {
+    min-width: 80vw;
+    min-height: 100px;
+
+    &:active {
+      cursor: pointer;
+      background-color: $yellow-light;
+      border: 0;
+    }
+
+    & > p {
+      font-size: 4.2vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 750px) {
+  .btnActionContainer {
+    min-width: 80vw;
+    min-height: 100px;
+
+    &:active {
+      cursor: pointer;
+      background-color: $yellow-light;
+      border: 0;
+    }
+
+    & > p {
+      font-size: 3vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  .btnActionContainer:hover {
+    cursor: pointer;
+    background-color: $yellow-light;
+    border: 0;
+  }
+}

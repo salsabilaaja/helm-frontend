@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CCNCoverView.tsx Render Properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="coverContainer"
+      >
+        <div
+          class="coverContentContainer"
+        >
+          <div
+            class="coverContent"
+          >
+            <p
+              class="txtCoverTitle"
+            >
+              Know your Helmet
+            </p>
+            <p
+              class="txtCoverDesc mt-[10px]"
+            >
+              Find you perfect helmet today in HELMETCO
+            </p>
+            <a
+              href="/question"
+            >
+              <button
+                aria-label=""
+                class="btnActionContainer px-[10px]
+        btnActionFilled 
+        btnStartCover mt-[20px]"
+                data-mui-internal-clone-element="true"
+              >
+                <p
+                  class="btnActionText"
+                >
+                  Start Now
+                </p>
+              </button>
+            </a>
+          </div>
+          <div
+            class="coverPicture"
+          >
+            <img
+              alt="helm_cover"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="coverContainer"
+    >
+      <div
+        class="coverContentContainer"
+      >
+        <div
+          class="coverContent"
+        >
+          <p
+            class="txtCoverTitle"
+          >
+            Know your Helmet
+          </p>
+          <p
+            class="txtCoverDesc mt-[10px]"
+          >
+            Find you perfect helmet today in HELMETCO
+          </p>
+          <a
+            href="/question"
+          >
+            <button
+              aria-label=""
+              class="btnActionContainer px-[10px]
+        btnActionFilled 
+        btnStartCover mt-[20px]"
+              data-mui-internal-clone-element="true"
+            >
+              <p
+                class="btnActionText"
+              >
+                Start Now
+              </p>
+            </button>
+          </a>
+        </div>
+        <div
+          class="coverPicture"
+        >
+          <img
+            alt="helm_cover"
+            src="[object Object]"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
